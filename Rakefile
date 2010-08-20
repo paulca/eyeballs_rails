@@ -23,8 +23,8 @@ begin
     gemspec.email = "paul@rslw.com"
     gemspec.homepage = "http://github.com/paulca/eyeballs_rails"
     gemspec.authors = ["Paul Campbell"]
-    gemspec.files = FileList["[A-Z]*", "lib/**/*"]
-    gemspec.version = "0.1.0"
+    gemspec.files = FileList["[A-Z]*", "lib/**/*", "app/**/*"]
+    gemspec.version = "0.1.1"
   end
 rescue LoadError
   puts "Jeweler not available. Install it with: gem install jeweler"
