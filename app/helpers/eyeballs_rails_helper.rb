@@ -5,7 +5,7 @@ module EyeballsRailsHelper
     
     javascripts << mixin_javascripts
     
-    javascripts << ['vendor/mustache/mustache.0.2.3.js',
+    javascripts << ['vendor/mustache/mustache.0.3.0.js',
     'vendor/eyeballs/o_O',
     'vendor/eyeballs/modules/o_O.model',
     'vendor/eyeballs/modules/o_O.validations',
