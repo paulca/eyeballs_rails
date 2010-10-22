@@ -24,7 +24,7 @@ begin
     gemspec.homepage = "http://github.com/paulca/eyeballs_rails"
     gemspec.authors = ["Paul Campbell"]
     gemspec.files = FileList["[A-Z]*", "lib/**/*", "app/**/*"]
-    gemspec.version = "0.1.2.1"
+    gemspec.version = "0.1.3"
   end
 rescue LoadError
   puts "Jeweler not available. Install it with: gem install jeweler"
