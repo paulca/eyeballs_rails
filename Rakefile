@@ -23,7 +23,7 @@ begin
     gemspec.email = "paul@rslw.com"
     gemspec.homepage = "http://github.com/paulca/eyeballs_rails"
     gemspec.authors = ["Paul Campbell"]
-    gemspec.files = FileList["[A-Z]*", "lib/**/*", "app/**/*"]
+    gemspec.files = FileList["[A-Za-z]*", "app/**/*"]
     gemspec.version = "0.1.3"
   end
 rescue LoadError
