@@ -7,7 +7,7 @@ require "action_view/railtie"
 require "action_mailer/railtie"
 
 Bundler.require
-require "init"
+require "eyeballs_rails_helper"
 
 module Dummy
   class Application < Rails::Application

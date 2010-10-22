@@ -24,3 +24,5 @@ module EyeballsRailsHelper
     end
   end
 end
+
+ActionView::Base.send(:include, EyeballsRailsHelper)
