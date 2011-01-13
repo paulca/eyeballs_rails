@@ -4,6 +4,10 @@ eyeballs_rails is a gem for using eyeballs.js in your Ruby on Rails projects.
 
 eyeballs_rails brings the `eyeballs_javascripts` method to Rails, which wraps `javascript_include_tags` but also includes all of the eyeballs.js dependencies, including jQuery and mustache. It also includes all of your models and controllers.
 
+## Installation ##
+
+Just add `'eyeballs'` and `'eyeballs_rails'` to your `Gemfile`
+
 ## Using eyeballs in Rails ##
 
 To install and/or update eyeballs javascripts in your Rails app, from the root directory, run:
@@ -19,6 +23,5 @@ To create a model, for example `Post`, just run:
 Same for controllers:
 
     eyeballs generate controller posts
-
 
 Finally, at the bottom of your template, just before the `</body>` tag, put the `eyeballs_javascripts` helper.
