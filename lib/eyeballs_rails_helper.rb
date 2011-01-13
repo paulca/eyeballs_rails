@@ -1,6 +1,9 @@
 module EyeballsRailsHelper
   def eyeballs_javascripts(*mixin_javascripts)
-    javascripts = ['vendor/jquery/jquery-1.4.2.min.js']
+    javascripts = [
+                    'vendor/jquery/jquery-1.4.2.min.js',
+                    'vendor/jquery/jquery.ba-bbq.min'
+                  ]
     
     javascripts << mixin_javascripts
     
