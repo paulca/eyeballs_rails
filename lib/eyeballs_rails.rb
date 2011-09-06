@@ -1,1 +1,5 @@
-require 'eyeballs_rails_helper'
+module EyeballsRails
+  #
+end
+
+require 'eyeballs_rails/engine'

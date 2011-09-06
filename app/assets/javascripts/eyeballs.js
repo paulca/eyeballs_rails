@@ -1,0 +1,12 @@
+//= require vendor/jquery/jquery-1.6.1.min.js
+//= require vendor/jquery/jquery.ba-bbq.min
+//= require vendor/mustache/mustache.0.3.0.js',
+//= require vendor/eyeballs/o_O
+//= require vendor/eyeballs/modules/o_O.model
+//= require vendor/eyeballs/modules/o_O.validations
+//= require vendor/eyeballs/drivers/jquery/adapters/o_O.rest
+//= require vendor/eyeballs/drivers/jquery/modules/o_O.controller
+//= require vendor/eyeballs/drivers/jquery/modules/o_O.support
+//= require vendor/eyeballs/drivers/jquery/modules/o_O.routes
+//= require config/routes
+//= require config/initializer
